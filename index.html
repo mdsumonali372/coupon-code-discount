@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container mx-auto bg-orange-400 w-3/4 mt-12 p-8 rounded-lg">
+      <h1 class="text-5xl font-bold text-center text-white">Discount Price</h1>
+      <h2 class="text-2xl font-bold text-white">
+        Total Price: <span id="total-price">00</span>
+      </h2>
+      <div class="mt-8">
+        <div>
+          <div>
+            <label for="" class="text-3xl font-bold">Price:</label>
+            <input
+              id="input-field"
+              type="text"
+              class="border-0 outline-none rounded-lg py-2 text-3xl"
+            />
+          </div>
+          <div class="mt-5">
+            <label for="" class="text-3xl font-bold">DISC30:</label>
+            <input
+              id="dicount-field"
+              type="text"
+              class="border-0 outline-none rounded-lg py-2 text-3xl"
+            />
+          </div>
+          <button
+            id="apply-btn"
+            class="block bg-blue-500 px-5 py-2 text-2xl rounded-lg mt-5 text-white hover:bg-violet-400"
+          >
+            Apply
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
